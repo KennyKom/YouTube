@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>YouTube Redesign Concept</title>
 </head>
 <body>
+    <header class="app__header header">
     
+        <!-- Burger menu -->
+        <button class="header__btn btn" type="button">
+          <img class="icon" src="./assets/files/burger menu.svg" width="20" height="17">
+        </button> 
+    
+        <!-- Logo -->
+        <a class="header__logo logo link" href="#">
+          <img class="logo__image" src="./assets/logo.png" width="116" height="25">
+        </a>
+    
+        <!-- Search string -->
+        <form class="header__search-form search-form" action="#" >
+          <input class="search-form__input" id="search-query" type="search" name="q" placeholder="Search" autocomplete="off">
+          <button class="search-form__btn btn">
+            <img class="icon" src="./assets/files/search.png" width="19" height="19">
+          </button> 
+        </form>
+    
+        <!-- Create button -->
+        <div class="header__btn-group">
+          <button class="header__btn btn" type="button">
+            <img class="icon" src="./assets/files/phone-18.svg" width="27" height="20">
+          </button> 
+    
+          <!-- ":::" button -->
+          <button class="header__btn btn" type="button">
+            <img class="icon" src="./assets/files/Combined Shape.svg" width="21" height="21">
+          </button> 
+    
+          <!-- Notifications -->
+          <button class="header__btn btn" type="button">
+            <img class="icon" src="./assets/files/notification.svg" width="22" height="26">
+            <span class="count">3</span>
+          </button> 
+    
+          <!-- User Profile -->
+          <button class="header__btn btn" type="button">
+            <img class="btn__image" src="./assets/files/avatar01.png" width="30" height="30">
+          </button>
+    
+          <!-- More (on the adaptiv mode) -->
+          <button class="header__btn btn header__btn_visible header__btn_type_options btn" type="button">
+            <img class="icon" src="./assets/files/more.svg" width="5" height="19">
+          </button>
+    
+        </div>
+      </header>
 </body>
 </html>
