@@ -56,5 +56,221 @@
     
         </div>
       </header>
+
+      <main class="content content_col_2 content_pr_70">
+        <section class="video">
+          <div class="video__contents">
+            <div class="video__header">
+              <h1 class="video__title title title_size_m">Dude You Re Getting A Telescope</h1>
+              
+              <!-- Show more (on the adaptiv mode)-->
+              <button class="video__header-btn btn">
+                <img class="icon" src="./assets/files/Right Arrow.png" width="10" height="7">
+              </button>
+            </div>
+            
+            <div class="video__player player">
+              
+              <video class="player__screen" src="#" poster="./assets/files/poster19.jpg" height="180">
+                <source src="#" type="video/*">
+              </video>
+              
+              <div class="player__menu">
+               
+                <div class="player__playback">
+                  <time class="player__time-passed" datetime="PT1M34S">1:34</time>
+                  <time class="player__time-left desktop" datetime="PT19M0S">19:00</time>
+                  <time class="player__time-left mobile" datetime="PT-10M0S">-10:00</time>
+                  <div class="player__progress progress">
+                    <div class="progress__bar progress__bar_color_red" style="width:31%"></div>
+                  </div>
+                </div>
+                
+                <!-- Buttons on the video (LEFT SIDE) -->
+                <div class="player__controls">
+                  <div class="player__btn-group">
+                   
+                    <!-- Pause -->
+                    <button class="player__control player__control_visible player__control_location_left player__control_mr_15 btn" type="button">
+                      <img class="icon" src="./assets/files/Pause.svg" width="22" height="24">
+                    </button> 
+                    
+                    <!-- Next video -->
+                    <button class="player__control btn" type="button">
+                      <img class="icon" src="./assets/files/Next.svg" width="27" height="18">
+                    </button> 
+    
+                    <!-- Mute -->
+                    <button class="player__control player__control_visible player__control_location_right btn" type="button">
+                      <img class="icon" src="./assets/files/Volume.svg" width="24" height="24">
+                    </button> 
+    
+                    <div class="player__control progress" style="width: 86px">
+                      <div class="progress__bar progress__bar_color_white" style="width: 36px"></div>
+                    </div>
+                  </div>
+                 
+                  <!-- Buttons on the video (RIGHT SIDE) -->
+                  <div class="player__btn-group">
+                    
+                    <!-- Subtitles -->
+                    <button class="player__control btn" type="button">
+                      <img class="icon" src="./assets/files/Subtitles.svg" width="27" height="18">
+                    </button> 
+                   
+                    <!-- Settings -->
+                    <button class="player__control btn" type="button">
+                      <img class="icon" src="./assets/files/Settings.svg" width="27" height="27">
+                    </button> 
+    
+                    <!-- Theater mode -->
+                    <button class="player__control btn" type="button">
+                      <img class="icon" src="./assets/files/Size.svg" width="30" height="21">
+                    </button> 
+    
+                    <!-- Full screen -->
+                    <button class="player__control btn" type="button">
+                      <img class="icon" src="./assets/files/Full Screen.svg" width="33" height="24">
+                    </button>  
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="video__info">
+              <span class="video__views">123k views</span>
+              <div class="video__btn-group">
+               
+                <!-- Likes button -->
+                <button class="video__btn btn btn_shape_text" type="button">
+                  <img class="icon" src="./assets/files/Likes.svg" width="14" height="13">
+                  123k
+                </button>
+                
+                <!-- Dislikes button -->
+                <button class="video__btn btn btn_shape_text" type="button">
+                  <img class="icon" src="./assets/files/Dislikes.svg" width="14" height="13">
+                  435k
+                </button>
+               
+                <!-- Share button -->
+                <button class="video__btn btn btn_shape_text" type="button">
+                  <img class="icon" src="./assets/files/Fill 62.svg" width="14" height="12">
+                  Share
+                </button>
+               
+                <!-- "..." button -->
+                <button class="video__btn btn" type="button">
+                  <img class="icon" src="./assets/files/More (1).svg" width="28" height="6">
+                </button>
+    
+              </div>
+            </div>
+          </div>
+    
+          <!-- Video -->
+          <hr class="video__separator">
+          <div class="video__channel-info">
+            <div>
+              <h2 class="video__channel-name title title_size_s">Food & Drink</h2>
+              <span class="video__subscribers">245K subscribed</span>
+              <span class="video__date">
+                Published on <time datetime="2019-06-14">14 Jun 2019</time>
+              </span>
+              <div class="video__channel-description description">
+                <p class="description__text"> A successful marketing plan relies heavily on the pulling-power of advertising copy. 
+                                              Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers 
+                                              to take action. There is no magic formula to write perfect ad copy; it is based on a number of factors, 
+                                              including ad placement, demographic, even the consumer’s mood when they see your ad.</p>
+                <button class="description__btn btn btn_shape_text btn_text_large" type="button">Show more</button>
+              </div>
+            </div>
+            <img class="video__channel-avatar" src="./assets/files/avatar08.png" alt="" width="80" height="80">
+            <a class="video__channel-link channel-link link btn btn_shape_rect btn_bg_red">
+              Subscribe <span class="channel-link__note">2.3m</span>
+            </a>
+          </div>
+        </section>
+    
+        <!-- Sidebar with video's -->
+        <section class="video-list video-list_header_visible video-list_p_0">
+          <div class="video-list__header">
+            <a class="video-list__channel link">
+              <h2 class="video-list__title title title_size_l">Next</h2>
+            </a>
+            <div class="btn-group">
+              <a class="btn btn_shape_text btn_type_autoplay link" href="#">Autoplay</a>
+            </div>
+          </div>
+          
+          <div class="video-list__inner video-list__inner_dir_vertical video-list__inner_scrollable">
+            
+            <!-- Video 1 -->
+            <div class="video-list__item video-item">
+              <a class="video-item__link video-item__link_gap_bigger video-link link" href="#">
+                <h3 class="title title_size_s">Baby Monitor Technology</h3>
+                <div class="video-link__preview video-link__preview_ratio_16-9">
+                  <img class="video-link__poster" src="./assets/files/poster10.jpg" alt="" witdh="250" height="150">
+                  <time class="video-link__duration desktop" datetime="PT8M00S">8:00</time>
+                  <time class="video-link__duration mobile" datetime="PT7M36S">7:36</time>
+                </div>
+              </a>
+              <div class="video-item__info">
+                <span>123k views</span>
+                <a class="video-item__author link" href="#">Dollie Blair</a>
+              </div>
+            </div>
+            
+            <!-- Video 2 -->
+            <div class="video-list__item video-item">
+              <a class="video-item__link video-item__link_gap_bigger video-link link" href="#">
+                <h3 class="title title_size_s desktop">A Good Autoresponder</h3>
+                <h3 class="title title_size_s mobile">Advertising Outdoors</h3>
+                <div class="video-link__preview video-link__preview_ratio_16-9">
+                  <img class="video-link__poster" src="./assets/files/poster11.jpg" alt="" witdh="250" height="150">
+                  <time class="video-link__duration desktop" datetime="PT8M00S">8:00</time>
+                  <time class="video-link__duration mobile" datetime="PT2M19S">2:19</time>
+                </div>
+              </a>
+              <div class="video-item__info">
+                <span>123k views</span>
+                <a class="video-item__author link" href="#">Dollie Blair</a>
+              </div>
+            </div>
+    
+            <!-- Video 3 -->
+            <div class="video-list__item video-item">
+              <a class="video-item__link video-item__link_gap_bigger video-link link" href="#">
+                <h3 class="title title_size_s">Selecting The Right Hotel</h3>
+                <div class="video-link__preview video-link__preview_ratio_16-9">
+                  <img class="video-link__poster" src="./assets/files/poster20.jpg" alt="" witdh="250" height="150">
+                  <time class="video-link__duration" datetime="PT8M00S">8:00</time>
+                </div>
+              </a>
+              <div class="video-item__info">
+                <span>123k views</span>
+                <a class="video-item__author link" href="#">Dollie Blair</a>
+              </div>
+            </div>
+    
+            <!-- Video 4 -->
+            <div class="video-list__item video-item">
+              <a class="video-item__link video-item__link_gap_bigger video-link link" href="#">
+                <h3 class="title title_size_s">A Good Autoresponder</h3>
+                <div class="video-link__preview video-link__preview_ratio_16-9">
+                  <img class="video-link__poster" src="./assets/files/poster13.jpg" alt="" witdh="250" height="150">
+                  <time class="video-link__duration" datetime="PT8M00S">8:00</time>
+                </div>
+              </a>
+              <div class="video-item__info">
+                <span>123k views</span>
+                <a class="video-item__author link" href="#">Dollie Blair</a>
+              </div>
+            </div>
+    
+          </div>
+        </section>
+      </main>
 </body>
 </html>
