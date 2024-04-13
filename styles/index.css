@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+@import url("./header.css");
+
+:root {
+  --basic-light: #fff;
+  --basic-dark: #000;
+  --text-dark: rgba(0, 0, 0, .6);
+  --text-semi-dark: #898989;
+  --title-dark: #19202c;
+  --link-active: #f00;
+  --btn-blue: #2196f3;
+  --bg-dark: rgba(0, 0, 0, .3);
+  --bg-semi-dark: rgba(61, 61, 61, .6);
+  --bg-semi-light: rgba(216, 216, 216, .5);
+  --bg-light: rgba(255, 255, 255, .2);
+  --border-light: #f1f1f1;
+}
+
+html, body {
+  box-sizing: border-box;
+  color: #898989;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  font-family: "Mulish", "Tahoma", sans-serif;
+  background-color: #fff;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.app {
+  padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+  .app {
+    padding-top: 80px;
+  }
+
+  .app_sidebar_opened {
+    padding-left: 240px;
+  }
+
+  .app_sidebar_closed {
+    padding-left: 80px;
+  }
+
+  .app_sidebar_closed .app__sidebar {
+    display: none;
+  }
+}
